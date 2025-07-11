@@ -1,41 +1,43 @@
-/*  your css code here. If applicable */
  body {
-      background-color: skyblue;
+      background-color: #87CEFA; /* Light Blue */
       margin: 0;
-      padding: 20px;
       font-family: Arial, sans-serif;
     }
 
     p:first-of-type {
       background-color: black;
       color: white;
+      margin: 0;
       padding: 5px;
     }
 
-    .highlight {
+    .red-paragraph {
       color: red;
     }
 
     ul {
       background-color: white;
-      padding: 20px;
       width: 300px;
+      margin: 40px auto; /* Center the list */
+      padding: 10px;
       list-style-type: disc;
     }
 
-    li:nth-child(1),
-    li:nth-child(5) {
-      font-size: 1.2em;
+    li {
+      padding: 5px;
+    }
+
+    li:first-child,
+    li:last-child {
       font-weight: bold;
+      font-size: 1.2em;
     }
 
     li:nth-child(2) {
-      background-color: #555;
+      background-color: #4B4B4B; /* Dark Gray */
       color: white;
-      padding: 5px;
     }
 
     li:nth-child(3) {
       background-color: pink;
-      padding: 5px;
     }
