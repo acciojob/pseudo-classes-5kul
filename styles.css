@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+ body {
+      background-color: skyblue;
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    p:first-of-type {
+      background-color: black;
+      color: white;
+      padding: 5px;
+    }
+
+    .highlight {
+      color: red;
+    }
+
+    ul {
+      background-color: white;
+      padding: 20px;
+      width: 300px;
+      list-style-type: disc;
+    }
+
+    li:nth-child(1),
+    li:nth-child(5) {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    li:nth-child(2) {
+      background-color: #555;
+      color: white;
+      padding: 5px;
+    }
+
+    li:nth-child(3) {
+      background-color: pink;
+      padding: 5px;
+    }
